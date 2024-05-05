@@ -13,6 +13,8 @@ public class GreedyBFS extends Search{
         return search(start,end,dict);
     }
 
+
+    // Heuristic yang digunakan adalah jumlah karakter yang berbeda antara node sekarang dengan node tujuan
     @Override
     public int calculateCost(Node node1, String endString) {
         int ret = 0;

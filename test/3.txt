@@ -1,0 +1,77 @@
+UCS
+
+1. tower
+2. toner
+3. tuner
+4. tunes
+5. dunes
+6. dunts
+7. duits
+8. quits
+9. quins
+10. quint
+11. quilt
+12. built
+13. build
+
+Elapsed Time: 48 ms
+Total Nodes Traversed: 7263
+
+Greedy BFS
+
+1. tower
+2. bower
+3. boxer
+4. boxed
+5. boded
+6. bided
+7. biked
+8. baked
+9. based
+10. bused
+11. buses
+12. busks
+13. bulks
+14. bulls
+15. bolls
+16. boils
+17. noils
+18. noily
+19. doily
+20. drily
+21. drill
+22. trill
+23. thill
+24. shill
+25. spill
+26. spile
+27. spite
+28. suite
+29. quite
+30. quire
+31. quirt
+32. quilt
+33. built
+34. build
+
+Elapsed Time: 13 ms
+Total Nodes Traversed: 1273
+
+A*
+
+1. tower
+2. toner
+3. tuner
+4. tunes
+5. dunes
+6. dunts
+7. duits
+8. quits
+9. quins
+10. quint
+11. quilt
+12. built
+13. build
+
+Elapsed Time: 46 ms
+Total Nodes Traversed: 7009

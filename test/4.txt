@@ -1,0 +1,71 @@
+UCS
+
+1. seven
+2. sever
+3. siver
+4. sizer
+5. sizes
+6. sines
+7. sinhs
+8. sighs
+9. sight
+10. eight
+
+Elapsed Time: 36 ms
+Total Nodes Traversed: 5298
+
+Greedy BFS
+
+1. seven
+2. sever
+3. sewer
+4. sewed
+5. sexed
+6. vexed
+7. vexes
+8. rexes
+9. reges
+10. rages
+11. cages
+12. cager
+13. eager
+14. eater
+15. enter
+16. ender
+17. eider
+18. aider
+19. aimer
+20. dimer
+21. diver
+22. giver
+23. given
+24. riven
+25. rivet
+26. revet
+27. reset
+28. beset
+29. besot
+30. begot
+31. bigot
+32. bight
+33. eight
+
+Elapsed Time: 9 ms
+Total Nodes Traversed: 1038
+
+A*
+
+1. seven
+2. sever
+3. siver
+4. sizer
+5. sizes
+6. sines
+7. sinhs
+8. sighs
+9. sight
+10. eight
+
+Elapsed Time: 24 ms
+Total Nodes Traversed: 3485
+

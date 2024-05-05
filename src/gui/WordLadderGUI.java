@@ -37,7 +37,7 @@ public class WordLadderGUI extends JFrame implements ActionListener {
         }
         pathArea = new JTextArea(20,40);
         pathArea.setEditable(false);
-        pathArea.setFocusable(false);
+
 
         // Create UI components
         JPanel inputPanel = new JPanel(new GridLayout(2, 2, 10, 10));
@@ -93,30 +93,29 @@ public class WordLadderGUI extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == searchButton) {
-            // Perform word ladder search
-            // Implement your search logic here
+         
             String startWord = startWordField.getText().toLowerCase();
             String endWord = endWordField.getText().toLowerCase();
-            // Dummy path for demonstration
+           
 
             if (startWord.length() != endWord.length()) {
-                // Display validation message in the pathArea
+           
                 pathArea.setText("Start word and end word must have the same length.");
-                statusLabel.setText(""); // Clear status label
-                return; // Exit the method
+                statusLabel.setText(""); 
+                return; 
             }
             if (!dict.contains(startWord)) {
-                // Display validation message in the pathArea
+                
                 pathArea.setText("Start word not found in the dictionary.");
-                statusLabel.setText(""); // Clear status label
-                return; // Exit the method
+                statusLabel.setText("");
+                return; 
             }
 
             if (!dict.contains(endWord)) {
-                // Display validation message in the pathArea
+               
                 pathArea.setText("End word not found in the dictionary.");
-                statusLabel.setText(""); // Clear status label
-                return; // Exit the method
+                statusLabel.setText("");
+                return; 
             }
             String selectedAlgorithm = (String) algorithmComboBox.getSelectedItem();
             ArrayList<String> path;
@@ -143,18 +142,18 @@ public class WordLadderGUI extends JFrame implements ActionListener {
                     endTime = System.currentTimeMillis();
                     break;
                 default:
-                    path = new ArrayList<>(); // Default to an empty path
+                    path = new ArrayList<>();
                     break;
             }
 
 
-            // Update pathArea
+            
             long elapsedTime = endTime - startTime;
 
-            // Update pathArea
+            
             updatePathArea(path, elapsedTime, totalTraversed);
 
-            statusLabel.setText(""); // Clear status label
+            statusLabel.setText(""); 
         } else if (e.getSource() == resetButton) {
             // Clear all fields
             startWordField.setText("");

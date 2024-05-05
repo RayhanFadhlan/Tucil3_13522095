@@ -1,0 +1,32 @@
+UCS
+
+1. word
+2. woad
+3. road
+4. read
+
+Elapsed Time: 2 ms
+Total Nodes Traversed: 203
+
+Greedy BFS
+
+1. word
+2. cord
+3. cold
+4. mold
+5. meld
+6. mead
+7. read
+
+Elapsed Time: 1 ms
+Total Nodes Traversed: 37
+
+A*
+
+1. word
+2. woad
+3. road
+4. read
+
+Elapsed Time: 2 ms
+Total Nodes Traversed: 113

@@ -9,8 +9,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) throws IOException {
 
@@ -144,66 +142,4 @@ public class Main {
         }
     }
     
-    // public static void runCLI() throws IOException {
-    //     UCS ucs = new UCS();
-    //     GreedyBFS gbfs = new GreedyBFS();
-    //     AStar aStar = new AStar();
-    //     Dictionary dict = new Dictionary();
-    //     ArrayList<String> ret;
-    //     ArrayList<String> ret2;
-    //     ArrayList<String> ret3;
-
-    //     String start = "zwitterionic";
-    //     String end = "zwinglianism";
-
-    //     if(start.length()!=end.length()){
-    //         System.out.println("start and end lengths do not match");
-    //     }
-    //     if(!dict.contains(start)){
-    //         System.out.println(start + " not found in dictionary");
-    //     }
-    //     if(!dict.contains(end)){
-    //         System.out.println(end + " not found in dictionary");
-    //     }
-
-    //     long startTimeUCS = System.currentTimeMillis();
-    //     ret = ucs.searchUCS(start,end, dict);
-    //     int travUCS = ucs.getTraversed();
-    //     long endTimeUCS = System.currentTimeMillis();
-
-
-    //     long startTimeGBFS = System.currentTimeMillis();
-    //     ret2 = gbfs.searchGreedyBFS(start,end,dict);
-    //     int travGBFS = gbfs.getTraversed();
-    //     long endTimeGBFS = System.currentTimeMillis();
-
-    //     long startTimeAStar = System.currentTimeMillis();
-    //     ret3 = aStar.searchAstar(start,end,dict);
-    //     int travAStar = aStar.getTraversed();
-    //     long endTimeAStar = System.currentTimeMillis();
-
-    //     if(ret.isEmpty()){
-    //         System.out.println("No solution found");
-    //     }
-    //     else{
-    //         System.out.println("UCS");
-    //         System.out.println(ret);
-    //         System.out.println(ret.size());
-    //         System.out.println(endTimeUCS - startTimeUCS + " ms");
-    //         System.out.println("Total Traversed UCS : " + travUCS);
-
-    //         System.out.println("GBFS");
-    //         System.out.println(ret2);
-    //         System.out.println(ret2.size());
-    //         System.out.println(endTimeGBFS - startTimeGBFS + " ms");;
-    //         System.out.println("Total Traversed GBFS : " + travGBFS);
-
-    //         System.out.println("AStar");
-    //         System.out.println(ret3);
-    //         System.out.println(ret3.size());
-    //         System.out.println(endTimeAStar - startTimeAStar + " ms");
-    //         System.out.printf("Total Traversed AStar : " + travAStar);
-
-    //     }
-    // }
 }

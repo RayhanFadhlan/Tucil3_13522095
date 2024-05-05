@@ -17,7 +17,7 @@ public class Dictionary {
         while ((line = reader.readLine()) != null) {
             String lowerCaseLine = line.toLowerCase();
 
-            // Add the lowercase line to the dictionary
+           
             dictionary.add(lowerCaseLine);
 
         }

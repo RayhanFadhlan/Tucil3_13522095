@@ -1,0 +1,77 @@
+UCS
+
+1. string
+2. sering
+3. serins
+4. series
+5. serges
+6. sarges
+7. parges
+8. parged
+9. parted
+10. patted
+11. pattee
+12. pattie
+13. cattie
+14. cattle
+15. battle
+16. bottle
+
+Elapsed Time: 71 ms
+Total Nodes Traversed: 7814
+
+Greedy BFS
+
+1. string
+2. sering
+3. serins
+4. series
+5. serves
+6. verves
+7. vervet
+8. verset
+9. verser
+10. verier
+11. varier
+12. varies
+13. paries
+14. parses
+15. parser
+16. parker
+17. parked
+18. parted
+19. patted
+20. batted
+21. betted
+22. better
+23. setter
+24. settee
+25. settle
+26. mettle
+27. mottle
+28. bottle
+
+Elapsed Time: 6 ms
+Total Nodes Traversed: 479
+
+A*
+
+1. string
+2. sering
+3. serins
+4. series
+5. serges
+6. sarges
+7. parges
+8. parged
+9. parted
+10. patted
+11. pattee
+12. pattie
+13. tattie
+14. tattle
+15. battle
+16. bottle
+
+Elapsed Time: 60 ms
+Total Nodes Traversed: 7167

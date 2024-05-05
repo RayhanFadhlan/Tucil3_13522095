@@ -1,0 +1,60 @@
+UCS
+
+1. piano
+2. pians
+3. pions
+4. phons
+5. phone
+6. shone
+7. shore
+8. chore
+9. chord
+
+Elapsed Time: 33 ms
+Total Nodes Traversed: 4450
+
+Greedy BFS
+
+1. piano
+2. pians
+3. peans
+4. peats
+5. peaty
+6. peavy
+7. leavy
+8. leave
+9. lease
+10. least
+11. leapt
+12. leaps
+13. lears
+14. bears
+15. boars
+16. boors
+17. moors
+18. mools
+19. cools
+20. cooly
+21. cooky
+22. choky
+23. choke
+24. chore
+25. chord
+
+Elapsed Time: 2 ms
+Total Nodes Traversed: 153
+
+A*
+
+1. piano
+2. pians
+3. pions
+4. phons
+5. phone
+6. shone
+7. shore
+8. chore
+9. chord
+
+Elapsed Time: 19 ms
+Total Nodes Traversed: 2321

@@ -21,16 +21,12 @@ public class AStar extends Search {
             if(nodeString.charAt(i)!=endString.charAt(i)){
                 ret++;
             }
-//            if(nodeString.charAt(i)=='a' || nodeString.charAt(i)=='e' || nodeString.charAt(i)=='i' || nodeString.charAt(i)=='o' || nodeString.charAt(i)=='u'){
-//                ret++;
-//            }
         }
 
-//            return (node1.getCost() +1 - ret) ;
-
-//        return ret;
+        // menjadikan heuristic admissible, dengan cara mengunderestimate h(n), dalam hal ini h(n) adalah ret yaitu estimasi jarak node sekaran ke node tujuan
+        // dengan cara ini, algoritma A* akan selalu menghasilkan solusi optimal
+        // karena nilai h(n) tidak akan pernah melebihi nilai sebenarnya, karena di setiap step, nilai g(n) di increment dengan 5, bukan 1
         return (node1.getCost() + 5) + ret;
-//        return (node1.getCost() + 1) + ret/(nodeString.length()-1);
     }
 
 }
